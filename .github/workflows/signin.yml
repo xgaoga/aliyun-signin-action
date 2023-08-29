@@ -2,8 +2,8 @@ name: Aliyun Signin
 
 on:
   schedule:
-   # 每天国际时间 17:17 运行一次, 中国时间 01:17 60天自动
-    - cron: '17 17 * * *'
+   # 每天国际时间 17:18 运行一次, 中国时间 01:17 60天自动
+    - cron: '17 18 * * *'
   workflow_dispatch:
 jobs:
   signin:
